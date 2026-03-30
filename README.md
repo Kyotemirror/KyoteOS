@@ -1,4 +1,5 @@
 <p align="center">
+  <img src="branding/assets/logo.png" alt="KyoteOS logo" width="200"/>
 </p>
 
 <h1 align="center">KyoteOS</h1>
@@ -6,6 +7,12 @@
 <p align="center">
   A lightweight Linux distribution for Raspberry Pi<br>
   Fast • Clean • Maker‑friendly
+</p>
+
+<p align="center">
+  <a href="https://buymeacoffee.com/kyotemirror">
+    <img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=☕&slug=kyotemirror&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
+  </a>
 </p>
 
 ---
