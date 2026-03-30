@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfwm4" version="1.0">
+
+  <!-- General behavior -->
+  <property name="general" type="empty">
+    <property name="raise_on_click" type="bool" value="true"/>
+    <property name="click_to_focus" type="bool" value="true"/>
+    <property name="focus_delay" type="int" value="250"/>
+    <property name="wrap_windows" type="bool" value="false"/>
+    <property name="wrap_workspaces" type="bool" value="false"/>
+    <property name="workspace_count" type="int" value="4"/>
+    <property name="title_font" type="string" value="Sans Bold 9"/>
+  </property>
+
+  <!-- Window snapping -->
+  <property name="snapping" type="empty">
+    <property name="snap_to_border" type="bool" value="true"/>
+    <property name="snap_to_windows" type="bool" value="true"/>
+    <property name="snap_width" type="int" value="10"/>
+  </property>
+
+  <!-- Compositor (DISABLED for performance) -->
+  <property name="compositor" type="empty">
+    <property name="enabled" type="bool" value="false"/>
+    <property name="show_popup_shadow" type="bool" value="false"/>
+    <property name="show_frame_shadow" type="bool" value="false"/>
+    <property name="show_dock_shadow" type="bool" value="false"/>
+    <property name="opacity" type="int" value="100"/>
+  </property>
+
+  <!-- Focus settings -->
+  <property name="focus" type="empty">
+    <property name="follow_mouse" type="bool" value="false"/>
+    <property name="raise_on_focus" type="bool" value="false"/>
+    <property name="focus_new" type="bool" value="true"/>
+  </property>
+
+  <!-- Keyboard shortcuts -->
+  <property name="keyboard" type="empty">
+    <property name="close_window" type="string" value="<Alt>F4"/>
+    <property name="maximize_window" type="string" value="<Alt>F10"/>
+    <property name="tile_left" type="string" value="<Super>Left"/>
+    <property name="tile_right" type="string" value="<Super>Right"/>
+    <property name="tile_up" type="string" value="<Super>Up"/>
+  </property>
+
+  <!-- Mouse behavior -->
+  <property name="mouse" type="empty">
+    <property name="double_click_time" type="int" value="250"/>
+    <property name="move_opacity" type="int" value="100"/>
+    <property name="resize_opacity" type="int" value="100"/>
+  </property>
+
+</channel>

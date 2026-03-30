@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+
+  <!-- Panel Definition -->
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+  </property>
+
+  <property name="panels/panel-1" type="empty">
+    <property name="position" type="string" value="p=8;x=0;y=0"/>
+    <property name="length" type="uint" value="100"/>
+    <property name="position-locked" type="bool" value="true"/>
+    <property name="size" type="uint" value="32"/>
+    <property name="background-style" type="uint" value="0"/>
+    <property name="autohide" type="bool" value="false"/>
+    <property name="span-monitors" type="bool" value="true"/>
+
+    <!-- Panel Plugins -->
+    <property name="plugin-ids" type="array">
+      <value type="int" value="1"/>
+      <value type="int" value="2"/>
+      <value type="int" value="3"/>
+      <value type="int" value="4"/>
+      <value type="int" value="5"/>
+      <value type="int" value="6"/>
+      <value type="int" value="7"/>
+    </property>
+  </property>
+
+  <!-- Applications Menu -->
+  <property name="plugins/plugin-1" type="empty">
+    <property name="plugin-id" type="string" value="applicationsmenu"/>
+    <property name="show-button-title" type="bool" value="false"/>
+    <property name="button-icon" type="string" value="start-here"/>
+  </property>
+
+  <!-- Launcher -->
+  <property name="plugins/plugin-2" type="empty">
+    <property name="plugin-id" type="string" value="launcher"/>
+    <property name="items" type="array">
+      <value type="string" value="xfce4-terminal.desktop"/>
+      <value type="string" value="thunar.desktop"/>
+      <value type="string" value="chromium-browser.desktop"/>
+    </property>
+  </property>
+
+  <!-- Separator -->
+  <property name="plugins/plugin-3" type="empty">
+    <property name="plugin-id" type="string" value="separator"/>
+    <property name="expand" type="bool" value="true"/>
+    <property name="style" type="uint" value="0"/>
+  </property>
+
+  <!-- Tasklist -->
+  <property name="plugins/plugin-4" type="empty">
+    <property name="plugin-id" type="string" value="tasklist"/>
+    <property name="grouping" type="uint" value="1"/>
+    <property name="show-handle" type="bool" value="false"/>
+  </property>
+
+  <!-- System Tray -->
+  <property name="plugins/plugin-5" type="empty">
+    <property name="plugin-id" type="string" value="systray"/>
+  </property>
+
+  <!-- Clock -->
+  <property name="plugins/plugin-6" type="empty">
+    <property name="plugin-id" type="string" value="clock"/>
+    <property name="mode" type="uint" value="2"/>
+    <property name="show-seconds" type="bool" value="false"/>
+  </property>
+
+  <!-- Power Manager -->
+  <property name="plugins/plugin-7" type="empty">
+    <property name="plugin-id" type="string" value="power-manager-plugin"/>
+  </property>
+</channel>
