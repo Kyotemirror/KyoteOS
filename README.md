@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="branding/assets/logo.png" alt="KyoteOS logo" width="200"/>
+  Welcome to KyoteOS
 </p>
 
 <h1 align="center">KyoteOS</h1>
@@ -10,9 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://buymeacoffee.com/kyotemirror">
-    <img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=☕&slug=kyotemirror&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
-  </a>
+  If you find KyoteOS useful and want to support development, you can buy me a coffee:
+👉 https://buymeacoffee.com/kyotemirror
 </p>
 
 ---
@@ -36,22 +35,31 @@ KyoteOS focuses on:
 
 ## 🧩 Supported Hardware
 
-KyoteOS is designed and tested for the following devices:
-
 - **Raspberry Pi 4** (2GB RAM or higher)
 - **Raspberry Pi Zero 2 W**
 
-Other Raspberry Pi models may work but are not officially supported at this time.
+Other Raspberry Pi models may work but are not officially supported.
 
 ---
 
 ## 🖥️ Desktop Stack
 
-KyoteOS uses a lightweight, Pi‑safe desktop stack:
+- **Desktop Environment:** XFCE  
+- **Window Manager:** XFWM4 (compositor disabled)  
+- **Display Manager:** LightDM (GTK Greeter)  
+- **Theme:** Adwaita‑dark  
+- **Terminal Branding:** Neofetch (KyoteOS config)
 
-- **Desktop Environment:** XFCE
-- **Window Manager:** XFWM4 (compositor disabled)
-- **Display Manager:** LightDM (GTK Greeter)
+---
+
+## 🛠️ Install (GitHub‑First)
+
+KyoteOS is installed by converting **Raspberry Pi OS Lite**.
+
+```bash
+sudo apt install git
+git clone https://github.com/Kyotemirror/KyoteOS.git
+cd KyoteOS- **Display Manager:** LightDM (GTK Greeter)
 - **Theme:** Adwaita‑dark
 - **Terminal Branding:** Neofetch (KyoteOS configuration)
 
