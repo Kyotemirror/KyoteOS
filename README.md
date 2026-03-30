@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="branding/assets/logo.png" alt="KyoteOS Logo" width="200">
 </p>
 
 <h1 align="center">KyoteOS</h1>
