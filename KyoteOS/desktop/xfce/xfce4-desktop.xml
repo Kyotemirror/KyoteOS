@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-desktop" version="1.0">
+
+  <!-- Desktop Icons -->
+  <property name="desktop-icons" type="empty">
+    <!-- 0 = no icons (clean macOS-like desktop) -->
+    <property name="style" type="int" value="0"/>
+    <property name="icon-size" type="int" value="64"/>
+    <property name="font-size" type="int" value="9"/>
+
+    <property name="file-icons" type="empty">
+      <!-- Turn everything off -->
+      <property name="show-home" type="bool" value="false"/>
+      <property name="show-trash" type="bool" value="false"/>
+      <property name="show-filesystem" type="bool" value="false"/>
+      <property name="show-removable" type="bool" value="false"/>
+    </property>
+  </property>
+
+  <!-- Desktop Background -->
+  <property name="backdrop" type="empty">
+    <property name="screen0" type="empty">
+      <property name="monitor0" type="empty">
+
+        <property name="image-path" type="string"
+          value="/usr/share/backgrounds/kyoteos.png"/>
+
+        <!-- Keep: scaled nicely like macOS -->
+        <property name="image-style" type="int" value="3"/>
+
+        <property name="image-show" type="bool" value="true"/>
+
+        <!-- Fallback color (black) -->
+        <property name="color-style" type="int" value="0"/>
+        <property name="color1" type="array">
+          <value type="uint" value="0"/>
+          <value type="uint" value="0"/>
+          <value type="uint" value="0"/>
+          <value type="uint" value="65535"/>
+        </property>
+
+      </property>
+    </property>
+  </property>
+
+  <!-- Workspace Names (optional mac-like naming) -->
+  <property name="workspace-names" type="array">
+    <value type="string" value="Desktop 1"/>
+    <value type="string" value="Desktop 2"/>
+    <value type="string" value="Desktop 3"/>
+    <value type="string" value="Desktop 4"/>
+  </property>
+
+</channel>

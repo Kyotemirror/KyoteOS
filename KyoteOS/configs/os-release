@@ -1,0 +1,15 @@
+NAME="KyoteOS"
+ID=kyoteos
+ID_LIKE=debian
+PRETTY_NAME="KyoteOS 1.0 (Raspberry Pi)"
+VERSION="1.0"
+VERSION_ID="1.0"
+VERSION_CODENAME=kyote
+
+HOME_URL="https://github.com/kyotemirror"
+DOCUMENTATION_URL="https://github.com/kyotemirror/docs"
+SUPPORT_URL="https://github.com/kyotemirror/issues"
+BUG_REPORT_URL="https://github.com/kyotemirror/issues"
+
+LOGO=kyoteos
+ANSI_COLOR="1;37"

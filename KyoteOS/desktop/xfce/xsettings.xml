@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xsettings" version="1.0">
+  <property name="Net" type="empty">
+
+    <!-- macOS-style GTK theme -->
+    <property name="ThemeName" type="string" value="WhiteSur-Dark"/>
+
+    <!-- macOS-style icons -->
+    <property name="IconThemeName" type="string" value="WhiteSur"/>
+
+    <!-- mac-like font -->
+    <property name="FontName" type="string" value="Cantarell 10"/>
+
+    <!-- modern cursor -->
+    <property name="CursorThemeName" type="string" value="capitaine-cursors"/>
+
+  </property>
+</channel>
